@@ -346,3 +346,77 @@ footer a:hover {
     font-size: 1.25rem !important;
     padding: 0 130px;
 }
+
+
+
+/* ********************************************CONTACT US**************************************************** */
+
+
+.contact-us-header {
+    background-image: url(../assets/images/contact-us-header-image.jpg);
+}
+
+.form-control {
+    width: 80%;
+    height: calc(1.5em + .75rem + 15px);
+    border: none;
+    border-radius: 0;
+    border-bottom-right-radius: 112px;
+    margin-bottom: 50px;
+}
+
+.form-control::placeholder {
+    color: #808080;
+    font-size: 1rem;
+}
+
+textarea.form-control {
+    height: 18vh;
+    border-bottom-right-radius: 55px;
+}
+
+#main-content.contact-us-main-content {
+    padding: 90px;
+}
+
+
+#main-content.contact-us-main-content h2 {
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 2.2rem;
+}
+
+
+#main-content.contact-us-main-content img {
+    width: 8vw;
+}
+
+#main-content.contact-us-main-content p,
+.col-12 a {
+    text-align: center;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 1.3rem;
+    color: black;
+    line-height: 1;
+
+}
+
+.contact-email-icon {
+    display: block;
+    margin: 90px auto 20px;
+}
+
+.contact-phone-icon {
+    margin-bottom: 40px;
+}
+
+form .btn {
+    margin: 0;
+    border-radius: 15px;
+}
+
+
+.col-12 a:hover {
+    color: #a68b03;
+}
