@@ -1,0 +1,348 @@
+body,
+html {
+    font-family: 'Bellota Text', cursive;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: 25px;
+    background-color: #a68b03;
+    border: none;
+    border-radius: 0;
+    font-variant: small-caps;
+    font-size: 1.35rem;
+    padding: 10px 30px;
+    color: #fff;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgb(166 139 3 / 50%);
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: rgb(196 165 8);
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-variant: small-caps;
+    color: white;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.header {
+    background-image: url(../assets/images/service-header-image.jpg);
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20vw;
+}
+
+/* ********************************************NAVBAR**************************************************** */
+
+.logo {
+    width: 15vw;
+}
+
+/*.navbar {
+    padding: .5rem 3rem;
+}*/
+
+.nav-link {
+    padding-right: 1.6rem !important;
+    padding-left: 1.6rem !important;
+    font-size: 1.3rem;
+    font-variant: small-caps;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: initial;
+    background: #a68b03;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link:hover:after {
+    width: 102%;
+    left: 0;
+}
+
+
+
+/* ********************************************HERO-IMAGE-SECTION**************************************************** */
+#hero-image-section {
+    background-image: url(../assets/images/hero-image.jpg);
+    height: 91vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 60px;
+}
+
+#hero-image-section h2 {
+    line-height: 1.9;
+    color: #fff;
+}
+
+
+/* ********************************************OUR-SERVICES-SECTION**************************************************** */
+
+#our-services-section {
+    background-color: #d8dada;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+#our-services-section h2 {
+    color: #000;
+    margin-bottom: 100px;
+}
+
+.service {
+    background-color: #ebebeb;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding: 45px 10px 15px;
+    position: relative;
+    width: 80%;
+}
+
+.service::before {
+    background: #a68b03;
+    content: "";
+    height: 45px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 5px;
+}
+
+.service::after {
+    background: #a68b03;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 45px;
+}
+
+.service-icon-div {
+    position: absolute;
+    border-radius: 50%;
+    margin: -50px auto 0;
+    width: 100px;
+    background: #ebebeb;
+    height: 100px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.service-icon {
+    width: 2.65rem;
+}
+
+.small {
+    width: 1.8rem;
+}
+
+#our-services-section h3,
+h3 {
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+#our-services-section .row {
+    margin-bottom: 10px;
+    margin-top: 95px;
+}
+
+
+
+/* ********************************************UP-TO-DATE-SECTION**************************************************** */
+
+#up-to-date-section {
+    text-align: center;
+    background-color: #ebebeb;
+    padding: 50px 80px;
+}
+
+.world,
+.nigeria,
+.ntas {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 75%;
+
+}
+
+.news-image {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#up-to-date-section p {
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: white;
+    font-variant: small-caps;
+}
+
+.news-btn {
+    background-color: black;
+    padding: 5px 20px;
+    font-size: 1rem;
+}
+
+/* ********************************************CONTACT-US-SECTION**************************************************** */
+
+#contact-us {
+    background-color: #455a64;
+    padding: 50px 80px;
+    text-align: center;
+}
+
+#contact-us h2 {
+    color: white;
+}
+
+/* ********************************************FOOTER-SECTION**************************************************** */
+
+footer {
+    padding: 20px;
+    background-color: #f4f1e3;
+    font-weight: 600;
+    font-variant: small-caps;
+    font-size: 1.2rem;
+}
+
+.email-icon {
+    width: 1.5vw;
+    margin-right: 10px;
+}
+
+.footer-logo {
+    width: 15vw;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: black;
+
+}
+
+footer a:hover {
+    color: #a68b03;
+}
+
+
+
+
+/* 
+***********************************************************************************************************************************
+***********************************************************************************************************************************
+*********************************************************************************************************************************** */
+
+
+/* ********************************************SERVICE & ABOUT US**************************************************** */
+#main-content {
+    background-color: #ebebeb;
+    text-align: center;
+    padding: 50px 60px;
+}
+
+#main-content h2 {
+    margin-bottom: 80px;
+}
+
+.service-container {
+    width: 80%
+}
+
+.image-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.image-container {
+    position: relative;
+    padding-bottom: 80%;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto 25px;
+    border: 2px solid #a68b03;
+}
+
+#main-content .row {
+    margin-bottom: 90px;
+}
+
+#main-content p {
+    text-align: justify;
+    line-height: 1.7;
+    font-size: 0.9rem;
+}
+
+.about-us-header {
+    background-image: url(../assets/images/about-us-header-image.jpg);
+}
+
+.who-are-we {
+    margin-bottom: 50px !important;
+}
+
+.about-us p {
+    font-size: 1.25rem !important;
+    padding: 0 130px;
+}
