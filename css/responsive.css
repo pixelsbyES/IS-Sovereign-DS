@@ -1,0 +1,30 @@
+/* ********************************************Media Queries**************************************************** */
+
+
+
+@media screen and (max-width: 1024px) {
+    .header {
+        height: 25vh;
+        padding: 0 10vw;
+    }
+
+    .logo {
+        width: 20vw;
+    }
+
+    .responsive-version {
+        display: flex !important;
+    }
+
+    .desktop-version {
+        display: none !important;
+    }
+
+    .single {
+        margin: 0 auto 90px;
+    }
+
+    #hero-image-section {
+        height: 45vh;
+    }
+}

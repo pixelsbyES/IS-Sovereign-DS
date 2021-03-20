@@ -57,9 +57,9 @@ h2 {
     width: 15vw;
 }
 
-/*.navbar {
-    padding: .5rem 3rem;
-}*/
+.navbar {
+    background-color: #fff;
+}
 
 .nav-link {
     padding-right: 1.6rem !important;
@@ -324,7 +324,11 @@ footer a:hover {
     border: 2px solid #a68b03;
 }
 
-#main-content .row {
+.responsive-version {
+    display: none !important;
+}
+
+#main-content .d-flex {
     margin-bottom: 90px;
 }
 
