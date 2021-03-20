@@ -2,7 +2,7 @@
 
 
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
     .header {
         height: 25vh;
         padding: 0 10vw;
