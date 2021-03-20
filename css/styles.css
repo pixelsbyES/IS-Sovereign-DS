@@ -420,3 +420,80 @@ form .btn {
 .col-12 a:hover {
     color: #a68b03;
 }
+
+
+
+
+
+
+.page-main {
+    opacity: 0;
+}
+
+
+.page-main .text-wrapper {
+    overflow: hidden;
+}
+
+
+.page-main .text-wrapper+.text-wrapper {
+    margin-top: 10px;
+}
+
+
+.page-main .text-wrapper * {
+    transform: translateY(120%);
+}
+
+
+
+.page-main .p-wrapper * {
+    transform: translateY(-120%);
+}
+
+
+.loaded .page-main {
+    animation: fadeIn 0.6s ease-in 0.45s forwards;
+}
+
+
+/* .loaded .page-main .text-wrapper {
+    animation: slideIn 0.6s cubic-bezier(0.54, 0.46, 0.54, 0.94) 2s forwards;
+} */
+
+.ks {
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .6s cubic-bezier(.190, 1.000, .220, 1.000) 1.5s;
+    -webkit-transform: translateX(-1000%);
+    -ms-transform: translateX(-1000%);
+    transform: translateX(-1000%);
+}
+
+
+.loaded .ks {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+@keyframes fadeIn {
+    60% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes slideIn {
+    100% {
+        transform: translateY(0);
+    }
+}
