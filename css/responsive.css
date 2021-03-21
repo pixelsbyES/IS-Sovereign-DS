@@ -27,4 +27,105 @@
     #hero-image-section {
         height: 45vh;
     }
+
+    #our-services-section h2 {
+        margin-bottom: -65px;
+    }
+
+    #services .d-flex.justify-content-center.col-xl-4 {
+        margin-top: 95px;
+    }
+
+    .world,
+    .nigeria,
+    .ntas {
+        width: 100%;
+    }
+
+    #up-to-date-section {
+        padding: 50px 50px;
+    }
+
+    #contact-us .btn {
+        margin-top: 0;
+    }
+
+    #contact-us h2 {
+        line-height: 1.8;
+    }
+
+    .email-icon {
+        width: 2.5vw;
+    }
+
+    #main-content.contact-us-main-content {
+        padding: 90px 90px 168px;
+    }
+
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .form-control {
+        width: 90%;
+    }
+
+    #main-content.contact-us-main-content p,
+    .col-12 a {
+        font-size: 1.2rem;
+    }
+
+    #main-content.contact-us-main-content {
+        padding: 90px 40px;
+    }
+
+    .contact-us-main-content .col-md-5 {
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .logo {
+        width: 25vw;
+    }
+
+    .nav-link {
+        padding-right: 1.1rem !important;
+        padding-left: 1.1rem !important;
+        font-size: 1.1rem;
+    }
+
+    .footer-logo {
+        width: 20vw;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+
+    .about-us p {
+        padding: 0 35px;
+    }
+
+    #contact-us h2 {
+        font-size: 2rem;
+    }
+
+    #contact-us .btn {
+
+        font-size: 1.2rem;
+        padding: 10px 20px;
+    }
+
+    #contact-us {
+        padding: 50px 40px;
+    }
+
+    #main-content .d-flex {
+        margin-bottom: 50px;
+    }
+
 }
