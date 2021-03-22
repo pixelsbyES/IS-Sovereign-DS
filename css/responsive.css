@@ -2,7 +2,7 @@
 
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1200px) {
     .header {
         height: 25vh;
         padding: 0 10vw;
@@ -65,7 +65,7 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 810px) {
 
     .form-control {
         width: 90%;
@@ -77,7 +77,7 @@
     }
 
     #main-content.contact-us-main-content {
-        padding: 90px 40px;
+        padding: 90px 40px 168px;
     }
 
     .contact-us-main-content .col-md-5 {
@@ -128,4 +128,273 @@
         margin-bottom: 50px;
     }
 
+    .service {
+        width: 90%;
+    }
+
+    #our-services-section {
+        padding: 50px;
+    }
+
+    h2.ks {
+        font-size: 2.3rem;
+    }
+
+    .btn.ks {
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .news-btn {
+        padding: 5px 15px
+    }
+
+    .service-container {
+        width: 95%;
+    }
+
+    .nav-link:after {
+        background: none;
+    }
+
+    .nav-link:hover {
+        color: #a68b03;
+    }
+
+    .responsive-footer {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .btn.ks {
+        font-size: 1.15rem;
+        padding: 8px 20px;
+    }
+
+    h2.ks {
+        font-size: 1.8rem;
+    }
+
+    #hero-image-section {
+        height: 50vh;
+        padding: 0 50px;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    h2 {
+        font-size: 2.2rem;
+    }
+
+    #our-services-section {
+        padding: 50px 80px;
+    }
+
+    #our-services-section .row {
+        margin-top: 65px;
+    }
+
+    #up-to-date-section {
+        padding: 50px 50px 20px;
+    }
+
+    #up-to-date-section .col-md-4 {
+        margin-bottom: 60px;
+    }
+
+    .world,
+    .nigeria,
+    .ntas {
+        width: 70%;
+    }
+
+    #contact-us {
+        padding: 35px 34px;
+    }
+
+    #contact-us h2 {
+        font-size: 1.5rem;
+    }
+
+    #contact-us .btn {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .responsive-version-mobile {
+        display: block !important;
+    }
+
+    .email-icon {
+        width: 3vw;
+    }
+
+    .footer-logo {
+        width: 24vw;
+    }
+
+    h1 {
+        font-size: 3.1rem;
+    }
+
+    .about-us p {
+        padding: 0 15px;
+        font-size: 1.1rem !important;
+    }
+
+    .who-are-we {
+        margin-bottom: 35px !important;
+    }
+
+    #main-content.contact-us-main-content {
+        padding: 90px 40px 95px;
+    }
+
+    .contact-us-main-content .col-md-5 {
+        margin: 100px auto 0;
+    }
+
+    #main-content.contact-us-main-content img {
+        width: 15vw;
+    }
+
+    .desktop-version-footer {
+        display: none !important;
+    }
+
+    .responsive-footer {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo {
+        width: 40vw;
+    }
+
+    #our-services-section {
+        padding: 50px 35px;
+    }
+
+    #our-services-section .btn {
+        font-size: 1.2rem;
+        padding: 8px 25px;
+    }
+
+    #contact-us {
+        padding: 35px 20px;
+    }
+
+    .footer-logo {
+        width: 27vw;
+    }
+
+    footer {
+        font-size: 0.63rem;
+        padding: 10px 7px;
+    }
+
+    footer a {
+        font-size: 0.7rem;
+    }
+
+    .email-icon {
+        margin-right: 4px;
+    }
+
+    #main-content {
+        padding: 50px 45px;
+    }
+
+    #main-content.contact-us-main-content {
+        padding: 45px 30px 95px;
+    }
+
+    .footer-logo {
+        width: 40vw;
+    }
+
+    footer {
+        font-size: 0.9rem !important;
+    }
+
+    footer a {
+        font-size: 0.9rem;
+    }
+
+    .email-icon {
+        width: 4vw;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    h2.ks {
+        font-size: 1.5rem;
+    }
+
+    .btn.ks {
+        font-size: 1rem;
+        padding: 7px 15px;
+        margin-top: 5px;
+    }
+
+    .service-icon {
+        width: 2rem;
+    }
+
+    .service-icon-div {
+        margin: -40px auto 0;
+        width: 80px;
+        height: 80px;
+    }
+
+    #our-services-section h3,
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    .service {
+        margin-bottom: 0;
+    }
+
+    #our-services-section p {
+        font-size: 0.9rem;
+    }
+
+    .small {
+        width: 1.6rem !important;
+    }
+
+    #up-to-date-section {
+        padding: 50px 15px 20px;
+    }
+
+    h2 {
+        font-size: 2.1rem;
+    }
+
+    #main-content {
+        padding: 50px 25px;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+
+    #main-content.contact-us-main-content h2 {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 2.9rem;
+    }
 }

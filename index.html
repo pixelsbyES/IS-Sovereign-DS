@@ -45,9 +45,12 @@
             <img class="logo" src="assets/images/logo.png" alt="logo-for-IS-SOVEREIGN-DS-LTD" />
         </a>
 
-        <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
-            data-target="#navbarNav" data-toggle="collapse" type="button">
-            <span class="navbar-toggler-icon"></span>
+
+        <button class="navbar-toggler first-button" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+
+            <div class="navbar-toggler-icon"><span></span><span></span><span></span></div>
+
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -85,7 +88,7 @@
 
             <h2> Our Services</h2>
 
-            <div id="services">
+            <div id="services" class="desktop-version">
                 <div class="row" data-aos="fade-up">
 
                     <div class=" d-flex justify-content-center col-xl-4 col-md-6">
@@ -175,6 +178,92 @@
                 </div>
             </div>
 
+            <div id="services-phone" class="row responsive-version">
+                <div class=" d-flex justify-content-center col-xl-4 col-md-6">
+                    <div class="service">
+                        <div class=" d-flex justify-content-center service-icon-div">
+                            <img class="service-icon" src="assets/icons/tracking-icon.svg"
+                                alt="icon for IS-SOVEREIGN-DS LTD security service Tracking Mechanisms">
+                        </div>
+                        <h3>Tracking Mechanisms</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt
+                            ut laoreet dolore magna aliquam erat </p>
+
+                    </div>
+                </div>
+
+                <div class=" d-flex justify-content-center col-xl-4 col-md-6">
+                    <div class="service">
+                        <div class=" d-flex justify-content-center service-icon-div">
+                            <img class="service-icon small" src="assets/icons/homeland-icon.svg"
+                                alt="icon for IS-SOVEREIGN-DS LTD security service Homeland Security">
+                        </div>
+                        <h3>Homeland Security</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt
+                            ut laoreet dolore magna aliquam erat </p>
+
+                    </div>
+                </div>
+
+                <div class=" d-flex justify-content-center col-xl-4 col-md-6">
+                    <div class="service">
+                        <div class=" d-flex justify-content-center service-icon-div">
+                            <img class="service-icon " src="assets/icons/cyber-icon.svg"
+                                alt="icon for IS-SOVEREIGN-DS LTD security service Cybersecurity Solutions">
+                        </div>
+                        <h3>Cybersecurity Solutions</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt
+                            ut laoreet dolore magna aliquam erat </p>
+
+                    </div>
+                </div>
+
+                <div class=" d-flex justify-content-center col-xl-4 col-md-6">
+                    <div class="service">
+                        <div class=" d-flex justify-content-center service-icon-div">
+                            <img class="service-icon" src="assets/icons/events-icon.svg"
+                                alt="icon for IS-SOVEREIGN-DS LTD security service Tracking Mechanisms">
+                        </div>
+                        <h3>Mega Events Security</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt
+                            ut laoreet dolore magna aliquam erat </p>
+
+                    </div>
+                </div>
+
+                <div class=" d-flex justify-content-center col-xl-4 col-md-6">
+                    <div class="service">
+                        <div class=" d-flex justify-content-center service-icon-div">
+                            <img class="service-icon small" src="assets/icons/aviation-icon.svg"
+                                alt="icon for IS-SOVEREIGN-DS LTD security service Homeland Security">
+                        </div>
+                        <h3>Aviation Security Solutions</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt
+                            ut laoreet dolore magna aliquam erat </p>
+                    </div>
+                </div>
+
+                <div class=" d-flex justify-content-center col-xl-4 col-md-6">
+                    <div class="service">
+                        <div class=" d-flex justify-content-center service-icon-div">
+                            <img class="service-icon" src="assets/icons/maritime-icon.svg"
+                                alt="icon for IS-SOVEREIGN-DS LTD security service Cybersecurity Solutions">
+                        </div>
+                        <h3>Maritime Security Solutions</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                            tincidunt
+                            ut laoreet dolore magna aliquam erat </p>
+
+                    </div>
+                </div>
+
+            </div>
+
 
 
             <a href="services.html" role="button" class="btn">View All Services</a>
@@ -186,7 +275,7 @@
             <p>Check Out Security Related News From Nigeria and Around the World</p>
 
             <div class="container-fluid">
-                <div class="row" data-aos="fade-up">
+                <div class="row">
 
                     <div class=" d-flex justify-content-center col-md-4">
                         <div class="world">
@@ -244,17 +333,34 @@
     </main>
 
 
-    <footer class="d-flex justify-content-between align-items-center">
+    <footer class="d-flex justify-content-between align-items-center desktop-version-footer">
         <img class="footer-logo" src="assets/images/logo.png"
             alt="logo for logo-for-IS-SOVEREIGN-DS-LTD international Security Consultant and integrator best security agency nigeria">
 
         <div class="phone-numbers">
-            <p>Israel: <a href="tel:+972504353567"> +972504353567 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nigeria: <a
+            <p>Israel: <a href="tel:+972504353567"> +972504353567 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br
+                    class="responsive-version-mobile"> <br class="responsive-version-mobile"> Nigeria: <a
                     href="tel:+2347061683705">+2347061683705</a>
             </p>
         </div>
         <a href="mailto:info@is-sovereign-ds.com"> <span><img class="email-icon" src="assets/icons/email-icon.svg"
                     alt="email-icon to contact IS-SOVEREIGN-DS-LTD international Security Consultant and integrator  best security agency nigeria"></span>info@is-sovereign-ds.com</a>
+    </footer>
+
+    <footer class="d-flex justify-content-between align-items-center resposive-version-mobile responsive-footer">
+        <img class="footer-logo" src="assets/images/logo.png"
+            alt="logo for logo-for-IS-SOVEREIGN-DS-LTD international Security Consultant and integrator best security agency nigeria">
+
+        <div class="phone-numbers">
+            <p>Israel: <a href="tel:+972504353567"> +972504353567 </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br
+                    class="responsive-version-mobile"> <br class="responsive-version-mobile"> Nigeria: <a
+                    href="tel:+2347061683705">+2347061683705</a>
+            </p>
+            <br class="responsive-version-mobile">
+            <a href="mailto:info@is-sovereign-ds.com"> <span><img class="email-icon" src="assets/icons/email-icon.svg"
+                        alt="email-icon to contact IS-SOVEREIGN-DS-LTD international Security Consultant and integrator  best security agency nigeria"></span>info@is-sovereign-ds.com</a>
+
+        </div>
     </footer>
 
     <script src="js/index.js"></script>
