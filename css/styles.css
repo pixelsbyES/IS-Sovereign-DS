@@ -54,7 +54,7 @@ h2 {
 /* ********************************************NAVBAR**************************************************** */
 
 .logo {
-    width: 15vw;
+    width: 16vw;
 }
 
 .navbar {
@@ -174,7 +174,7 @@ h2 {
 
 /* ********************************************HERO-IMAGE-SECTION**************************************************** */
 #hero-image-section {
-    background-image: url(../assets/images/hero-image.jpg);
+    background-image: url(../assets/images/new-header.jpg);
     height: 91vh;
     background-position: center;
     background-repeat: no-repeat;
